@@ -14,7 +14,7 @@ res.send('Ok');
 });
 
 
-let PORT = process.env.LISTEN_PORT || 80;
+let PORT = process.env.LISTEN_PORT || 8000;
 
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
